@@ -1,12 +1,15 @@
 # Terraform files
-terraform/.terraform/
-terraform/.terraform.lock.hcl
-terraform/terraform.tfstate*
-terraform/.tfvars
-terraform/*.tfplan
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
 
-# IDE
-.vscode/
+# IDE 
+.vscode/ 
 .idea/
 *.swp
 *.swo
